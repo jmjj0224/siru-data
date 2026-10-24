@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-24T16:22:24.885Z",
+  "updated": "2026-10-24T16:40:28.381Z",
   "FACT_CHECKED": "2026-10-25",
   "SRC": {
     "wt2412": "https://www.wikitree.co.kr/articles/1012973",
@@ -46,7 +46,16 @@
     "official": "https://www.sungsimdang.co.kr/31/31",
     "officialCake": "https://www.sungsimdang.co.kr/31/16",
     "officialDcc": "https://www.sungsimdang.co.kr/31/17",
-    "officialLotte": "https://www.sungsimdang.co.kr/31/33"
+    "officialLotte": "https://www.sungsimdang.co.kr/31/33",
+    "etodayChestnut26": "https://www.etoday.co.kr/news/view/2628978",
+    "gukjeChestnut26": "https://www.gukjenews.com/news/articleView.html?idxno=3703754",
+    "djBlueberry26": "https://www.daejonilbo.com/news/articleView.html?idxno=2288158",
+    "etodaySummer26": "https://www.etoday.co.kr/news/view/2603549",
+    "djShineMelon26": "https://www.daejonilbo.com/news/articleView.html?idxno=2292889",
+    "etodayShineMelon26": "https://www.etoday.co.kr/news/view/2611671",
+    "hkWhiteBerry25": "https://www.hankyung.com/article/2025021458427",
+    "ggYokiyoki26": "http://www.ggilbo.com/news/articleView.html?idxno=1188691",
+    "etodayMelon26": "https://www.etoday.co.kr/news/view/2588830"
   },
   "SIRU": [
     {
@@ -537,7 +546,7 @@
     "launch": [
       {
         "h": 5,
-        "d": "2025-02-14 화이트딸기시루 출시일",
+        "d": "2025-02-14 화이트딸기시루 출시 사흘 뒤",
         "t": "05:40에 줄 서서 2시간 20분 만에 들어갔고, 08:00 직전엔 300명이 넘었어요.",
         "s": "한국경제",
         "u": "hk2502"
@@ -558,39 +567,98 @@
       "id": "chestnut",
       "name": "알밤시루",
       "season": {
-        "from": "09-01",
+        "from": "09-23",
         "to": "12-31",
-        "uncertain": true,
-        "label": "가을~겨울",
-        "note": "2026년 기사에 가을~겨울 판매, 4만5000원으로 나와요. 정확한 날짜는 확인 못 했어요."
+        "label": "2026년엔 9월 23일부터 · 끝나는 날은 확인 필요",
+        "note": "2026년엔 본점 9월 23일, 롯데점·DCC점 9월 28일부터 4만5000원에 팔아요. 끝나는 날은 발표되지 않았어요."
       },
-      "look": "밤이 올라간 시루",
-      "src": "https://www.wikitree.co.kr/articles/1153149",
-      "sk": "wt2608"
+      "look": "밤크림을 층층이 쌓고 알밤을 올린 시루예요.",
+      "src": "https://www.etoday.co.kr/news/view/2628978",
+      "sk": "etodayChestnut26"
+    },
+    {
+      "id": "yokiyoki",
+      "name": "요키요키 (키위 케이크)",
+      "season": {
+        "from": "10-23",
+        "to": null,
+        "uncertain": true,
+        "label": "2026년 10월 23일 다시 출시 · 기간 확인 필요",
+        "note": "요키요키는 이름에 시루가 붙지 않은 키위 케이크예요. 2026년 10월 23일 레드키위를 더해 다시 나왔고, 케익부띠끄에서 4만3000원이라는 기사가 1곳 있어요."
+      },
+      "look": "요거트 크림에 골드키위와 레드키위를 올린 케이크예요.",
+      "src": "http://www.ggilbo.com/news/articleView.html?idxno=1188691",
+      "sk": "ggYokiyoki26"
     },
     {
       "id": "blueberry",
       "name": "블루베리시루",
       "season": {
+        "from": "07-15",
+        "to": null,
         "uncertain": true,
-        "label": "판매 기간 확인 필요",
-        "note": "2026년 여름 판매, 4만6000원이라는 기사가 있어요. 망고시루 대신 나온 제품 중 하나로도 언급됐어요."
+        "label": "2026년엔 7월 15일부터 · 끝나는 날 확인 필요",
+        "note": "2026년 7월 15일부터 케익부띠끄에서 4만6000원에 팔았어요. 하루 수량은 월~목 200개, 금·주말 400개였어요."
       },
-      "look": "블루베리가 올라간 시루",
-      "src": "https://www.wikitree.co.kr/articles/1153149",
-      "sk": "wt2608"
+      "look": "블루베리잼과 블루베리 크림을 쌓고 생블루베리를 올린 시루예요.",
+      "src": "https://www.daejonilbo.com/news/articleView.html?idxno=2288158",
+      "sk": "djBlueberry26"
+    },
+    {
+      "id": "shinemelon",
+      "name": "샤인멜론시루",
+      "season": {
+        "from": "08-06",
+        "to": null,
+        "uncertain": true,
+        "label": "2026년엔 8월 6일부터 · 끝나는 날 확인 필요",
+        "note": "2026년 8월 6일부터 본점·DCC점·롯데점에서 4만3000원에 팔았어요. 끝나는 날은 발표되지 않았어요."
+      },
+      "look": "요거트 크림에 샤인머스캣과 머스크멜론을 넣은 시루예요.",
+      "src": "https://www.daejonilbo.com/news/articleView.html?idxno=2292889",
+      "sk": "djShineMelon26"
     },
     {
       "id": "peach",
-      "name": "복숭아시루",
+      "name": "썸머요거피치 (복숭아 케이크)",
       "season": {
+        "from": "07-14",
+        "to": null,
         "uncertain": true,
-        "label": "판매 기간 확인 필요",
-        "note": "2026년 여름 판매, 3만6000원이라는 기사가 있어요. 출시일은 확인 못 했어요."
+        "label": "2026년엔 7월 14일부터 · 롯데점에서만",
+        "note": "썸머요거피치는 2026년 7월 14일부터 롯데점에서만 3만6000원, 1인 1개로 팔았어요. \"복숭아시루\"로 적힌 기사도 있어요."
       },
-      "look": "복숭아 조각이 올라간 시루",
-      "src": "https://www.wikitree.co.kr/articles/1153149",
-      "sk": "wt2608"
+      "look": "복숭아와 요거트 크림을 올린 1호 크기 케이크예요.",
+      "src": "https://www.etoday.co.kr/news/view/2603549",
+      "sk": "etodaySummer26"
+    },
+    {
+      "id": "melon1",
+      "name": "메론1통케익",
+      "season": {
+        "from": "05-28",
+        "to": null,
+        "uncertain": true,
+        "label": "2026년엔 5월 28일 ~ 6월 초",
+        "note": "메론1통케익은 노을 멜론을 쓴 케이크예요. 2026년엔 본점에서만 4만8000원에, 6월 초까지 한정 수량으로 팔았어요."
+      },
+      "look": "노을 멜론 한 통과 멜론 콩포트, 우유크림을 넣은 케이크예요.",
+      "src": "https://www.etoday.co.kr/news/view/2588830",
+      "sk": "etodayMelon26"
+    },
+    {
+      "id": "strawsulgi",
+      "name": "딸기설기",
+      "season": {
+        "from": "02-11",
+        "to": null,
+        "uncertain": true,
+        "label": "겨울~봄 · 기간 확인 필요",
+        "note": "2025년 2월 11일 본점에서 \"화이트딸기시루\"(5만2000원, 1인 1개)로 나왔어요. 2026년 기사엔 \"딸기설기\" 5만2000원이 있어요. 두 이름이 같은 제품인지는 공식 확인을 못 했어요."
+      },
+      "look": "흰 시트와 생크림 사이에 딸기를 쌓은 케이크예요.",
+      "src": "https://www.hankyung.com/article/2025021458427",
+      "sk": "hkWhiteBerry25"
     }
   ],
   "SIZE_FACTS": {
