@@ -25,6 +25,11 @@
 - `node validate.js`가 통과해야만 커밋해요. 실패하면 커밋하지 않아요.
 - 커밋 메시지: "YYYY-MM-DD 확인: (바뀐 내용 한 줄 또는 '변경 없음')".
 
+## 새 제품이 나왔을 때
+- SIRU_EXTRA에 새 id를 추가하지 않아요. 새 id는 앱에 아이콘이 있어야 해서 앱 업데이트가 필요해요.
+- 대신 `pending/YYYY-MM-DD.md`에 "새 제품" 항목으로 이름·출시일·가격·매장·출처를 적어 두고 보고해요.
+- 이미 있는 id(chestnut, yokiyoki, blueberry, shinemelon, peach, melon1, strawsulgi)는 문구와 기간을 고쳐도 돼요.
+
 ## 하지 않는 것
 - 인스타그램 자동 수집은 하지 않아요 (로그인 필요, 이용약관 문제).
 - 앱 코드(index.html)는 건드리지 않아요. 이 저장소에는 데이터만 있어요.
