@@ -1,7 +1,1004 @@
 {
-  "schema": 1,
-  "updated": "2026-10-24T16:40:28.381Z",
-  "FACT_CHECKED": "2026-10-25",
+  "schema": 2,
+  "updated": "2026-10-25T02:52:26.739Z",
+  "CHECKED": "2026-10-25",
+  "PRODUCTS": [
+    {
+      "id": "strawberry",
+      "group": "딸기",
+      "name": "딸기시루",
+      "short": "딸기",
+      "isSiru": true,
+      "pal": {
+        "c1": "#8A5A47",
+        "c2": "#7B4C3B",
+        "c3": "#6A3F30",
+        "c4": "#5A3326",
+        "t1": "#8E6552",
+        "t2": "#7A5444",
+        "dot": "#E5483A"
+      },
+      "sizes": [
+        {
+          "name": "2.3kg",
+          "price": 49000,
+          "stores": [
+            "bon"
+          ]
+        },
+        {
+          "name": "막내",
+          "price": 43000,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "looks": "초코 시트 사이사이 생크림과 생딸기를 층층이 쌓았어요.",
+      "limit": "2.3kg과 딸기설기 중 하나만 살 수 있어요. 17시 이후엔 남은 수량에 따라 말차시루나 막내를 하나 더 살 수 있어요.",
+      "daily": "본점 2.3kg은 하루 500~800개 한정이에요.",
+      "periods": [
+        {
+          "from": "2025-12-23",
+          "to": "2026-04-05",
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "src": [
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DWnzuOWiBS3/",
+          "t": "2026-04-02 판매 마감 공지"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DS0-eYdE2M5/",
+          "t": "2025-12-29 한정 수량 공지"
+        },
+        {
+          "s": "한국경제",
+          "u": "https://www.hankyung.com/article/2025122422247",
+          "t": "2025-12-24"
+        }
+      ]
+    },
+    {
+      "id": "strawsulgi",
+      "group": "딸기",
+      "name": "딸기설기",
+      "short": "딸기설기",
+      "isSiru": false,
+      "pal": {
+        "c1": "#F6EEE6",
+        "c2": "#F1E4D8",
+        "c3": "#EAD6C6",
+        "c4": "#E0C8B4",
+        "t1": "#FBF4EC",
+        "t2": "#F0E2D4",
+        "dot": "#E5483A"
+      },
+      "sizes": [
+        {
+          "name": "기본 크기",
+          "price": 52000,
+          "stores": [
+            "bon",
+            "dcc"
+          ]
+        }
+      ],
+      "looks": "제누와즈 시트에 생크림과 딸기크림, 생딸기를 넣었어요.",
+      "aka": "2025년 2월 처음 나올 땐 \"화이트딸기시루\"로도 불렸어요.",
+      "limit": "2.3kg 딸기시루와 딸기설기 중 하나만 살 수 있어요.",
+      "daily": "본점은 하루 200~500개 한정이에요.",
+      "periods": [
+        {
+          "from": "2025-12-23",
+          "to": "2026-04-05",
+          "stores": [
+            "bon",
+            "dcc"
+          ]
+        }
+      ],
+      "src": [
+        {
+          "s": "성심당 롯데점 인스타그램",
+          "u": "https://www.instagram.com/p/DGKDtiMT17A/",
+          "t": "2025-02-16 구성·가격 안내"
+        },
+        {
+          "s": "성심당 DCC점 인스타그램",
+          "u": "https://www.instagram.com/p/DWsNg7yiW6f/",
+          "t": "2026-04-03 판매 마감 공지"
+        },
+        {
+          "s": "성심당 롯데점 인스타그램",
+          "u": "https://www.instagram.com/p/DS1Vx3Vkb3Q/",
+          "t": "2025-12-28 롯데점 판매 중단"
+        }
+      ]
+    },
+    {
+      "id": "matcha",
+      "group": "딸기",
+      "name": "말차시루",
+      "short": "말차",
+      "isSiru": true,
+      "pal": {
+        "c1": "#9AA663",
+        "c2": "#8F9753",
+        "c3": "#808A47",
+        "c4": "#707A3C",
+        "t1": "#A5B683",
+        "t2": "#93A56F",
+        "dot": "#8FA05A"
+      },
+      "sizes": [
+        {
+          "name": "기본 크기",
+          "price": 43000,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "looks": "초코 시트에 말차 크림, 딸기와 딸기 콩포트를 넣었어요.",
+      "limit": "1인 1개",
+      "periods": [
+        {
+          "from": "2025-12-11",
+          "to": "2026-04-05",
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "src": [
+        {
+          "s": "성심당 롯데점 인스타그램",
+          "u": "https://www.instagram.com/p/DSHGw4IEcHd/",
+          "t": "2025-12-10 출시 공지(본점 시루매장·롯데점·DCC점)"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DWnzuOWiBS3/",
+          "t": "2026-04-02 판매 마감 공지"
+        }
+      ]
+    },
+    {
+      "id": "mango",
+      "group": "망고",
+      "name": "망고시루",
+      "short": "망고",
+      "isSiru": true,
+      "pal": {
+        "c1": "#F6DB9A",
+        "c2": "#F3D494",
+        "c3": "#EFC779",
+        "c4": "#E8B85E",
+        "t1": "#F4E3B0",
+        "t2": "#EAD08F",
+        "dot": "#FFB020"
+      },
+      "sizes": [
+        {
+          "name": "기본 크기",
+          "price": 43000,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "looks": "부드러운 우유 생크림에 생망고를 듬뿍 올렸어요.",
+      "limit": "롯데점은 오전 8시부터 현장에서 한정 수량으로 팔아요.",
+      "periods": [
+        {
+          "from": "2026-04-06",
+          "to": "2026-07-10",
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "fact": "2026년엔 망고 수급 문제로 예정보다 일찍 7월 10일에 끝났어요.",
+      "src": [
+        {
+          "s": "성심당 롯데점 인스타그램",
+          "u": "https://www.instagram.com/p/DWkpkejkhvy/",
+          "t": "2026-03-31 판매 시작 공지(4월 6일)"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/Dae8pFGov-C/",
+          "t": "2026-07-07 전 지점 7월 10일 마감 공지"
+        }
+      ]
+    },
+    {
+      "id": "melon1",
+      "group": "멜론",
+      "name": "한통멜론케익",
+      "short": "한통멜론",
+      "isSiru": false,
+      "pal": {
+        "c1": "#F7D9B8",
+        "c2": "#F3CDA4",
+        "c3": "#EDBE8C",
+        "c4": "#E4AE76",
+        "t1": "#FBE6CC",
+        "t2": "#F1D2AE",
+        "dot": "#F08A3C"
+      },
+      "sizes": [
+        {
+          "name": "기본 크기",
+          "price": 48000,
+          "stores": [
+            "bon"
+          ]
+        }
+      ],
+      "looks": "멜론 한 통과 멜론 콩포트, 우유크림을 넣은 케이크예요.",
+      "aka": "처음엔 \"멜론1통케익\"이라는 이름으로 나왔어요.",
+      "limit": "본점에서만 한정 수량으로 팔아요.",
+      "daily": "10월 판매 때는 화~목 100개, 금·일 200개, 토 300개였어요.",
+      "periods": [
+        {
+          "from": "2026-05-28",
+          "to": "2026-07-14",
+          "stores": [
+            "bon"
+          ],
+          "note": "노을 멜론"
+        },
+        {
+          "from": "2026-10-09",
+          "to": "2026-10-18",
+          "stores": [
+            "bon"
+          ],
+          "note": "하미과 멜론"
+        }
+      ],
+      "src": [
+        {
+          "s": "이투데이",
+          "u": "https://www.etoday.co.kr/news/view/2588830",
+          "t": "2026-05-29 출시"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DauPzE3xTjn/",
+          "t": "2026-07-13 7월 14일 종료 공지"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DeQgVs3FDQn/",
+          "t": "2026-10-09 다시 출시"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DenlCcHIDqi/",
+          "t": "2026-10-18 종료 공지"
+        }
+      ]
+    },
+    {
+      "id": "muskmelon",
+      "group": "멜론",
+      "name": "머스크멜론 케익",
+      "short": "머스크멜론",
+      "isSiru": false,
+      "pal": {
+        "c1": "#E4EFC9",
+        "c2": "#D8E7B6",
+        "c3": "#C9DD9F",
+        "c4": "#B8D088",
+        "t1": "#EEF5DA",
+        "t2": "#DCEABF",
+        "dot": "#8DBF4A"
+      },
+      "sizes": [
+        {
+          "name": "기본 크기",
+          "price": 43000,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "looks": "우유크림에 부여 머스크멜론을 듬뿍 올린 케이크예요.",
+      "limit": "한정 수량으로 팔았어요.",
+      "periods": [
+        {
+          "from": "2026-06-29",
+          "to": "2026-08-05",
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ],
+          "storeFrom": {
+            "dcc": "2026-07-02",
+            "lotte": "2026-07-02"
+          }
+        }
+      ],
+      "src": [
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DaFa5tnIShW/",
+          "t": "2026-06-27 출시 공지"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/Dbov91SzKeP/",
+          "t": "2026-08-04 8월 5일 종료 공지"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DaSLB2KifuW/",
+          "t": "2026-07-02 DCC점·롯데점도 판매"
+        },
+        {
+          "s": "성심당 DCC점 인스타그램",
+          "u": "https://www.instagram.com/p/DbsJIhLJsID/",
+          "t": "2026-08-06 DCC점 8월 5일 마지막"
+        }
+      ]
+    },
+    {
+      "id": "shinemelon",
+      "group": "멜론",
+      "name": "샤인멜론시루",
+      "short": "샤인멜론",
+      "isSiru": true,
+      "pal": {
+        "c1": "#E6F0C8",
+        "c2": "#DAE9B4",
+        "c3": "#CBDF9C",
+        "c4": "#BAD385",
+        "t1": "#F0F6DA",
+        "t2": "#DDEBBE",
+        "dot": "#9ACB4E"
+      },
+      "sizes": [
+        {
+          "name": "기본 크기",
+          "price": 43000,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "looks": "요거트 크림에 샤인머스캣과 머스크멜론을 층층이 넣고 위에도 올렸어요.",
+      "limit": "DCC점은 준비한 수량이 다 팔리면 끝나요.",
+      "periods": [
+        {
+          "from": "2025-08-10",
+          "to": "2025-10-05",
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ],
+          "storeFrom": {
+            "lotte": "2025-08-17",
+            "dcc": "2025-08-18"
+          },
+          "storeTo": {
+            "lotte": "2025-10-09"
+          },
+          "analog": "샤인이랑멜론"
+        },
+        {
+          "from": "2026-08-06",
+          "to": null,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "analogNote": "2025년엔 비슷한 \"샤인이랑멜론\"(3만7000원, 시루 아닌 일반 케이크)을 8월 10일부터 10월 5일까지 팔았어요.",
+      "src": [
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DPWPnDkkbxW/",
+          "t": "2025-10-03 샤인이랑멜론 10월 5일 종료"
+        },
+        {
+          "s": "성심당 롯데점 인스타그램",
+          "u": "https://www.instagram.com/p/DPm2t8rAcFy/",
+          "t": "2025-10-09 롯데점 샤인이랑멜론 종료"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DbpSAhPidQn/",
+          "t": "2026-08-04 8월 6일 본점·롯데점·DCC점"
+        },
+        {
+          "s": "대전일보",
+          "u": "https://www.daejonilbo.com/news/articleView.html?idxno=2292889",
+          "t": "2026-08-06 전 지점 판매"
+        }
+      ]
+    },
+    {
+      "id": "tangerine",
+      "group": "귤",
+      "name": "생귤시루",
+      "short": "생귤",
+      "isSiru": true,
+      "pal": {
+        "c1": "#F7D6A6",
+        "c2": "#F4D09A",
+        "c3": "#F0C285",
+        "c4": "#E9B06B",
+        "t1": "#F2D8B4",
+        "t2": "#EBC79C",
+        "dot": "#FF8A2A"
+      },
+      "sizes": [
+        {
+          "name": "기본 크기",
+          "price": 43000,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "looks": "바닐라 시트에 요거트 크림, 귤 콩포트와 생귤을 넣었어요.",
+      "limit": "1인 1개",
+      "periods": [
+        {
+          "from": "2025-07-24",
+          "to": "2025-12-19",
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ],
+          "storeTo": {
+            "dcc": "2025-10-12",
+            "lotte": "2025-10-09"
+          }
+        },
+        {
+          "from": "2026-07-09",
+          "to": null,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ],
+          "storeFrom": {
+            "lotte": "2026-07-11"
+          }
+        }
+      ],
+      "src": [
+        {
+          "s": "성심당 DCC점 인스타그램",
+          "u": "https://www.instagram.com/p/DafAlaMpAzI/",
+          "t": "2026-07-07 판매 일정(본점·DCC 7/9, 롯데 7/11)"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DScr2VfkXae/",
+          "t": "2025-12-19 판매 종료 공지"
+        },
+        {
+          "s": "세계일보",
+          "u": "https://www.segye.com/newsView/20260711507023",
+          "t": "2026-07-11 가격·1인 1개"
+        },
+        {
+          "s": "성심당 DCC점 인스타그램",
+          "u": "https://www.instagram.com/p/DPu5lhlCSlv/",
+          "t": "2025-10-12 DCC점 마감"
+        },
+        {
+          "s": "성심당 롯데점 인스타그램",
+          "u": "https://www.instagram.com/p/DPm2t8rAcFy/",
+          "t": "2025-10-09 롯데점 시즌 종료"
+        }
+      ]
+    },
+    {
+      "id": "blueberry",
+      "group": "블루베리",
+      "name": "블루베리시루",
+      "short": "블루베리",
+      "isSiru": true,
+      "pal": {
+        "c1": "#C9CEF2",
+        "c2": "#B3B9EA",
+        "c3": "#9AA2DF",
+        "c4": "#8890D3",
+        "t1": "#DADDF6",
+        "t2": "#BEC4EE",
+        "dot": "#4C5BAE"
+      },
+      "sizes": [
+        {
+          "name": "기본 크기",
+          "price": 46000,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "looks": "블루베리잼과 블루베리 크림을 층층이 쌓고 생블루베리를 올렸어요.",
+      "limit": "DCC점은 1일 1인 1개예요.",
+      "daily": "본점은 월~목 200개, 금~일 400개 한정이었어요.",
+      "periods": [
+        {
+          "from": "2026-07-15",
+          "to": "2026-08-31",
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ],
+          "storeTo": {
+            "lotte": "2026-08-21"
+          }
+        }
+      ],
+      "src": [
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DaufId6IBUO/",
+          "t": "2026-07-14 출시 공지"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DcqUB_UoKF7/",
+          "t": "2026-08-30 8월 31일 종료 공지"
+        },
+        {
+          "s": "성심당 DCC점 인스타그램",
+          "u": "https://www.instagram.com/p/Da1nRAVpCev/",
+          "t": "2026-07-15 DCC점 판매"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DcfX3t7CWUh/",
+          "t": "2026-08-25 본점·DCC 8/31, 롯데 8/21 마감"
+        }
+      ]
+    },
+    {
+      "id": "peach",
+      "group": "복숭아",
+      "name": "썸머요거피치",
+      "short": "요거피치",
+      "isSiru": false,
+      "pal": {
+        "c1": "#FBD3BF",
+        "c2": "#F9C2AC",
+        "c3": "#F5A58C",
+        "c4": "#EE9478",
+        "t1": "#FCDDCC",
+        "t2": "#F7B197",
+        "dot": "#F2705A"
+      },
+      "sizes": [
+        {
+          "name": "1호",
+          "price": 36000,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "looks": "생복숭아 과육과 요거트 크림을 케이크 안팎에 듬뿍 넣었어요.",
+      "limit": "롯데점·DCC점은 1일 1인 1개예요.",
+      "periods": [
+        {
+          "from": "2026-07-14",
+          "to": "2026-09-30",
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ],
+          "storeFrom": {
+            "bon": "2026-07-23",
+            "dcc": "2026-07-25"
+          }
+        }
+      ],
+      "src": [
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DbDHIqJomnT/",
+          "t": "2026-07-21 본점 7월 23일 출시"
+        },
+        {
+          "s": "이투데이",
+          "u": "https://www.etoday.co.kr/news/view/2603549",
+          "t": "2026-07-14 롯데점 출시"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/Dd5l3N2oehE/",
+          "t": "2026-09-30 종료 공지"
+        }
+      ]
+    },
+    {
+      "id": "fig",
+      "group": "무화과",
+      "name": "무화과시루",
+      "short": "무화과",
+      "isSiru": true,
+      "pal": {
+        "c1": "#F4E6D2",
+        "c2": "#F1E0C8",
+        "c3": "#EBD5B7",
+        "c4": "#E2C8A5",
+        "t1": "#F8E9D6",
+        "t2": "#EFDCC3",
+        "dot": "#8A4577"
+      },
+      "sizes": [
+        {
+          "name": "기본 크기",
+          "price": 45000,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "looks": "우유 생크림에 무화과 콩포트를 곁들이고 영암 무화과를 올렸어요.",
+      "limit": "DCC점은 1일 1인 1개예요.",
+      "periods": [
+        {
+          "from": "2025-08-25",
+          "to": "2025-11-02",
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        },
+        {
+          "from": "2026-08-20",
+          "to": null,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "src": [
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DcK4PUGCVpj/",
+          "t": "2026-08-17 8월 20일 전 지점"
+        },
+        {
+          "s": "성심당 DCC점 인스타그램",
+          "u": "https://www.instagram.com/p/DcPo0KlCeMZ/",
+          "t": "2026-08-19 DCC점 8월 20일부터"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DQbeAprEXAG/",
+          "t": "2025-10-30 11월 2일 종료 공지"
+        }
+      ]
+    },
+    {
+      "id": "yokiyoki",
+      "group": "키위",
+      "name": "요키요키",
+      "short": "요키요키",
+      "isSiru": false,
+      "pal": {
+        "c1": "#F7F0D6",
+        "c2": "#F1E7C2",
+        "c3": "#E8DAA8",
+        "c4": "#DDCB8E",
+        "t1": "#FBF6E2",
+        "t2": "#EFE4BE",
+        "dot": "#C9B23A"
+      },
+      "sizes": [
+        {
+          "name": "기본 크기",
+          "price": 43000,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "looks": "요거트 크림에 골드키위와 레드키위를 올린 케이크예요.",
+      "limit": "롯데점은 오픈과 동시에 팔아요.",
+      "periods": [
+        {
+          "from": "2025-10-24",
+          "to": "2025-12-22",
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ],
+          "storeFrom": {
+            "dcc": "2025-10-25"
+          },
+          "storeTo": {
+            "dcc": "2025-12-10"
+          }
+        },
+        {
+          "from": "2026-09-01",
+          "to": null,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ],
+          "storeFrom": {
+            "lotte": "2026-09-07",
+            "dcc": "2026-09-07"
+          }
+        }
+      ],
+      "fact": "2026년 10월 23일부터 레드키위가 다시 들어가요.",
+      "src": [
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DeyuCu2oAHg/",
+          "t": "2026-10-23 레드키위 재출시"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DcvQY5jiXaa/",
+          "t": "2026-09-01 본점 9/1, DCC·롯데 9/7"
+        },
+        {
+          "s": "성심당 DCC점 인스타그램",
+          "u": "https://www.instagram.com/p/DSCPrOoiYxR/",
+          "t": "2025-12-08 DCC점 12월 10일 마감"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DScr2VfkXae/",
+          "t": "2025-12-19 12월 22일까지 판매 공지"
+        }
+      ]
+    },
+    {
+      "id": "chestnut",
+      "group": "밤",
+      "name": "알밤시루",
+      "short": "알밤",
+      "isSiru": true,
+      "pal": {
+        "c1": "#F2E2C4",
+        "c2": "#E3C79B",
+        "c3": "#D4B286",
+        "c4": "#C9A06E",
+        "t1": "#F6E9CF",
+        "t2": "#E2C58F",
+        "dot": "#8B5A36"
+      },
+      "sizes": [
+        {
+          "name": "기본 크기",
+          "price": 45000,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ]
+        }
+      ],
+      "looks": "밤크림과 우유크림을 층층이 쌓고 알밤을 듬뿍 올렸어요.",
+      "limit": "롯데점은 오픈과 동시에 팔아요.",
+      "periods": [
+        {
+          "from": "2025-10-01",
+          "to": "2025-12-22",
+          "stores": [
+            "bon",
+            "lotte"
+          ]
+        },
+        {
+          "from": "2026-09-23",
+          "to": null,
+          "stores": [
+            "bon",
+            "dcc",
+            "lotte"
+          ],
+          "storeFrom": {
+            "dcc": "2026-09-28",
+            "lotte": "2026-09-28"
+          }
+        }
+      ],
+      "src": [
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DdlPKkXI1Kx/",
+          "t": "2026-09-22 9월 23일 출시"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DdlJIACic2Q/",
+          "t": "2026-09-21 본점 9/23, 롯데·DCC 9/28"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DScr2VfkXae/",
+          "t": "2025-12-19 12월 22일까지 판매 공지"
+        }
+      ]
+    },
+    {
+      "id": "fruit",
+      "group": "여러 과일",
+      "name": "과일시루",
+      "short": "과일",
+      "isSiru": true,
+      "pal": {
+        "c1": "#7C4632",
+        "c2": "#6F3A28",
+        "c3": "#62311F",
+        "c4": "#552A1A",
+        "t1": "#8C6652",
+        "t2": "#7B5645",
+        "dot": "#9DC768"
+      },
+      "sizes": [
+        {
+          "name": "2.5kg",
+          "price": 52000,
+          "stores": [
+            "bon"
+          ]
+        },
+        {
+          "name": "막내",
+          "price": 45000,
+          "stores": [
+            "bon"
+          ]
+        }
+      ],
+      "looks": "초코 시트에 계절마다 바뀌는 과일(샤인머스캣·바나나·딸기·오렌지 등)과 크림을 층층이 넣었어요.",
+      "limit": "과일 수급에 따라 속 과일이 바뀌어요.",
+      "periods": [
+        {
+          "from": "2025-11-30",
+          "to": "2025-12-22",
+          "stores": [
+            "bon",
+            "dcc"
+          ],
+          "storeTo": {
+            "dcc": "2025-12-20"
+          },
+          "sizeTo": {
+            "2.5kg": "2025-12-19"
+          },
+          "note": "2.5kg이 다시 나온 날부터 적었어요. 막내는 그 전에도 팔았어요."
+        },
+        {
+          "from": "2026-04-09",
+          "to": "2026-07-22",
+          "stores": [
+            "bon"
+          ],
+          "sizeTo": {
+            "2.5kg": "2026-05-27"
+          }
+        }
+      ],
+      "src": [
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DW7ar6yk3yc/",
+          "t": "2026-04-09 다시 출시"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DYwpT7_I2d3/",
+          "t": "2026-05-25 2.5kg 5월 27일 종료"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DbDMhfGoG--/",
+          "t": "2026-07-21 막내 7월 22일까지"
+        },
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DScr2VfkXae/",
+          "t": "2025-12-19 종료 공지"
+        }
+      ]
+    },
+    {
+      "id": "fruitsulgi",
+      "group": "여러 과일",
+      "name": "과일설기 막내",
+      "short": "과일설기",
+      "isSiru": false,
+      "pal": {
+        "c1": "#F8EFE4",
+        "c2": "#F2E4D4",
+        "c3": "#EAD6C0",
+        "c4": "#E0C8AC",
+        "t1": "#FCF6EE",
+        "t2": "#F1E3D0",
+        "dot": "#E5483A"
+      },
+      "sizes": [
+        {
+          "name": "막내",
+          "price": 43000,
+          "stores": [
+            "bon"
+          ]
+        }
+      ],
+      "looks": "속엔 딸기크림, 겉엔 우유크림을 바르고 제철 과일을 올렸어요.",
+      "limit": "과일 수급에 따라 올라가는 과일이 바뀌어요.",
+      "periods": [
+        {
+          "from": "2026-10-20",
+          "to": null,
+          "stores": [
+            "bon"
+          ]
+        }
+      ],
+      "src": [
+        {
+          "s": "성심당 공식 인스타그램",
+          "u": "https://www.instagram.com/p/DetEfDcFHBu/",
+          "t": "2026-10-20 출시"
+        }
+      ]
+    }
+  ],
   "SRC": {
     "wt2412": "https://www.wikitree.co.kr/articles/1012973",
     "hk2502": "https://www.hankyung.com/article/2025021458427",
@@ -44,6 +1041,12 @@
     "etodayGyul24": "https://www.etoday.co.kr/news/view/2408439",
     "etodayFig25": "https://www.etoday.co.kr/news/view/2500425",
     "official": "https://www.sungsimdang.co.kr/31/31",
+    "ig_DcSBvk_T3t0": "https://www.instagram.com/p/DcSBvk_T3t0/",
+    "ig_DSi41F2k-Jt": "https://www.instagram.com/p/DSi41F2k-Jt/",
+    "ig_DMejB9vJipx": "https://www.instagram.com/p/DMejB9vJipx/",
+    "ig_DSlq_BGAUlF": "https://www.instagram.com/p/DSlq_BGAUlF/",
+    "dccPark": "https://www.yugacrew.com/crewletter/daejeon-baby-fair-schedule",
+    "lotteShop": "https://www.lotteshopping.com/store/main?cstr=0012",
     "officialCake": "https://www.sungsimdang.co.kr/31/16",
     "officialDcc": "https://www.sungsimdang.co.kr/31/17",
     "officialLotte": "https://www.sungsimdang.co.kr/31/33",
@@ -57,285 +1060,31 @@
     "ggYokiyoki26": "http://www.ggilbo.com/news/articleView.html?idxno=1188691",
     "etodayMelon26": "https://www.etoday.co.kr/news/view/2588830"
   },
-  "SIRU": [
-    {
-      "id": "strawberry",
-      "short": "딸기",
-      "name": "딸기시루",
-      "pal": {
-        "c1": "#8A5A47",
-        "c2": "#7B4C3B",
-        "c3": "#6A3F30",
-        "c4": "#5A3326",
-        "t1": "#8E6552",
-        "t2": "#7A5444",
-        "dot": "#E5483A"
-      },
-      "season": {
-        "from": "12-23",
-        "to": "04-30",
-        "label": "2025년엔 12월 23일부터 · 봄쯤까지",
-        "note": "시작일은 2025년 기사예요. 끝나는 시기는 \"12월 말~4월\"이라는 여행 매체 정리뿐이라 정확한 날은 몰라요."
-      },
-      "sizes": [
-        {
-          "name": "2.3kg",
-          "price": 49000,
-          "stores": [
-            "bon"
-          ]
-        },
-        {
-          "name": "막내",
-          "price": 43000,
-          "stores": [
-            "bon",
-            "dcc",
-            "lotte"
-          ],
-          "note": "막내 판매 매장은 공식 자료가 없어요. DCC점·롯데점에서 샀다는 후기가 있어요."
-        }
-      ],
-      "looks": "초코 시트 사이사이 생크림과 생딸기를 층층이 쌓았어요.",
-      "limit": "1인 1개 (2025년 기사: 딸기시루 일부 제품)",
-      "fact": {
-        "t": "2025년 판매 첫날 200m 넘는 줄에 5시간 넘게 기다렸다는 보도가 있어요.",
-        "s": "SBS Biz",
-        "u": "sbs2512"
-      }
-    },
-    {
-      "id": "mango",
-      "short": "망고",
-      "name": "망고시루",
-      "pal": {
-        "c1": "#F6DB9A",
-        "c2": "#F3D494",
-        "c3": "#EFC779",
-        "c4": "#E8B85E",
-        "t1": "#F4E3B0",
-        "t2": "#EAD08F",
-        "dot": "#FFB020"
-      },
-      "season": {
-        "from": "04-06",
-        "to": "07-10",
-        "label": "2026년엔 4월 6일 ~ 7월 10일",
-        "note": "2026년엔 망고 수급 문제로 7월 10일까지만 생산하고 전 매장에서 철수했어요. 2024년에도 7월에 일찍 끝났어요."
-      },
-      "sizes": [
-        {
-          "name": "기본 크기",
-          "price": 43000,
-          "stores": [
-            "bon",
-            "dcc",
-            "lotte"
-          ]
-        }
-      ],
-      "looks": "시트에 생크림을 바르고 생망고를 듬뿍 올렸어요.",
-      "limit": "확인 못 했어요",
-      "fact": {
-        "t": "2026년 7월 10일까지만 생산하고 전 매장에서 철수한다고 공지했어요.",
-        "s": "한국경제",
-        "u": "hkMango2607"
-      }
-    },
-    {
-      "id": "matcha",
-      "short": "말차",
-      "name": "말차시루",
-      "pal": {
-        "c1": "#9AA663",
-        "c2": "#8F9753",
-        "c3": "#808A47",
-        "c4": "#707A3C",
-        "t1": "#A5B683",
-        "t2": "#93A56F",
-        "dot": "#8FA05A"
-      },
-      "season": {
-        "from": "12-23",
-        "to": "04-30",
-        "label": "2025년 12월 23일 첫 출시",
-        "note": "판매 기간과 매장은 확인 못 했어요.",
-        "uncertain": true
-      },
-      "sizes": [
-        {
-          "name": "기본 크기",
-          "price": 43000,
-          "stores": null
-        }
-      ],
-      "looks": "딸기시루에 말차 크림을 더한 구성이에요.",
-      "limit": "1인 1개 (2025년 기사)",
-      "fact": {
-        "t": "2025년 겨울 대기 줄이 예년의 4~5배라는 보도가 있어요.",
-        "s": "디지털데일리",
-        "u": "ddaily2512"
-      }
-    },
-    {
-      "id": "tangerine",
-      "short": "생귤",
-      "name": "생귤시루",
-      "pal": {
-        "c1": "#F7D6A6",
-        "c2": "#F4D09A",
-        "c3": "#F0C285",
-        "c4": "#E9B06B",
-        "t1": "#F2D8B4",
-        "t2": "#EBC79C",
-        "dot": "#FF8A2A"
-      },
-      "season": {
-        "from": "07-09",
-        "to": "10-31",
-        "label": "2026년엔 7월 9일부터 · 끝나는 날은 확인 필요",
-        "note": "2026년 시작일은 기사로 확인했어요. 끝나는 날은 2024년(10월 13일) 기준이고, 2026년 발표는 못 찾았어요."
-      },
-      "sizes": [
-        {
-          "name": "기본 크기",
-          "price": 43000,
-          "stores": [
-            "bon",
-            "dcc",
-            "lotte"
-          ]
-        }
-      ],
-      "looks": "바닐라 시트와 요거트 크림, 층 사이에 생귤이 들어가요.",
-      "limit": "1인 1개 (2026년 기사)",
-      "fact": {
-        "t": "2026년 7월 9일 일부 매장부터 판매를 시작했어요.",
-        "s": "한국경제",
-        "u": "hkMango2607"
-      }
-    },
-    {
-      "id": "fig",
-      "short": "무화과",
-      "name": "무화과시루",
-      "pal": {
-        "c1": "#F4E6D2",
-        "c2": "#F1E0C8",
-        "c3": "#EBD5B7",
-        "c4": "#E2C8A5",
-        "t1": "#F8E9D6",
-        "t2": "#EFDCC3",
-        "dot": "#8A4577"
-      },
-      "season": {
-        "from": "08-20",
-        "to": "12-31",
-        "label": "2026년엔 8월 20일부터 · 끝나는 날은 확인 필요",
-        "note": "2026년 시작일은 기사로 확인했어요. 끝나는 시기는 \"8~12월\"이라는 여행 매체 정리뿐이에요."
-      },
-      "sizes": [
-        {
-          "name": "기본 크기",
-          "price": 45000,
-          "stores": [
-            "bon",
-            "dcc",
-            "lotte"
-          ]
-        }
-      ],
-      "looks": "우유 크림에 무화과 콩포트를 곁들이고 영암 무화과를 올렸어요 (2025년 기사).",
-      "limit": "2026년은 확인 못 했어요 (2025년 DCC점은 1인 1개)",
-      "fact": {
-        "t": "2026년 9월 기사에 \"무화과시루 사려면 2시간은 기본\"이라는 시민 말이 실렸어요.",
-        "s": "세계일보",
-        "u": "segye2609"
-      }
-    },
-    {
-      "id": "fruit",
-      "short": "과일",
-      "name": "과일시루",
-      "pal": {
-        "c1": "#7C4632",
-        "c2": "#6F3A28",
-        "c3": "#62311F",
-        "c4": "#552A1A",
-        "t1": "#8C6652",
-        "t2": "#7B5645",
-        "dot": "#9DC768"
-      },
-      "season": {
-        "from": null,
-        "to": null,
-        "label": "시기마다 구성이 달라요",
-        "note": "2026년 과일시루 5만2000원, 막내 4만5000원(겨울~봄), 여름용 5만5000원(여름) 보도가 있어요. 판매 기간은 확인 못 했어요.",
-        "uncertain": true
-      },
-      "sizes": [
-        {
-          "name": "기본 크기",
-          "price": 52000,
-          "stores": null
-        },
-        {
-          "name": "막내",
-          "price": 45000,
-          "stores": null
-        }
-      ],
-      "looks": "2023년엔 1층 바나나, 2층 딸기, 3층 샤인머스캣, 위에 체리·딸기·샤인머스캣을 올렸어요.",
-      "limit": "확인 못 했어요",
-      "fact": {
-        "t": "2023년 딸기시루 시즌이 끝난 뒤 2.7kg 종합과일시루로 나왔어요.",
-        "s": "인사이트",
-        "u": "insightFruit"
-      }
-    }
-  ],
   "STORES": [
     {
       "id": "bon",
       "model": "bon",
-      "name": "케익부띠끄 본점",
+      "name": "본점 (케익부띠끄·시루케익전문점)",
+      "short": "본점",
       "wait": "현장 줄",
-      "sells": "딸기시루 2.3kg은 여기서만",
-      "addr": "대전 중구 대종로 480",
-      "hours": "월~목·일 08:00~21:30, 금·토 08:00~22:00, 연중무휴 (공식 홈페이지)",
-      "transit": "대전역에서 지하철 1호선 한 정거장(중앙로역), 역에서 걸어서 5분 안쪽. 대전역에서 걸어서 약 17분, 버스 약 5분이라는 정리도 있어요.",
-      "parking": "방문 차량 주차권 제공. 근처 공영주차장은 우리들공원, 30분 1,200원이에요.",
+      "sells": "딸기시루 2.3kg은 여기서만 팔아요",
+      "addr": "케익부띠끄 본점 대전 중구 대종로 480 · 시루케익전문점 대종로 484 (바로 옆)",
+      "hours": "케익부띠끄 월~목·일 08:00~21:30, 금·토 08:00~22:00 · 시루케익전문점 월~목 08:00~19:30, 금·토 08:00~22:30, 일 08:00~20:00 · 둘 다 연중무휴 (공식 홈페이지)",
+      "transit": "대전역에서 지하철 1호선으로 한 정거장(중앙로역) 가서 걸어서 5분 안쪽이에요.",
+      "parking": "방문 차량엔 주차권을 줘요. 근처 공영주차장(우리들공원)은 30분 1,200원이에요.",
       "tips": [
+        "본점 공지에선 시루케익전문점을 \"케익부띠끄 시루점\"이라고 불러요. 2025년 크리스마스엔 두 곳 모두에서 케이크를 결제할 수 있었어요.",
         "오픈 2시간 전인 06시부터 줄이 생긴다는 보도가 있어요 (2026년 9월).",
-        "연말엔 4~5시간 기다렸다는 증언도 있어요."
+        "시루케익전문점은 입장까지 40분, 케익부띠끄는 20분 걸렸다는 같은 시각 후기가 있어요."
       ],
       "src": [
         "officialCake",
-        "nate2312",
-        "yeogi",
-        "segye2609",
-        "herald2601",
-        "parking"
-      ]
-    },
-    {
-      "id": "senmun",
-      "model": "bon",
-      "name": "시루케익전문점",
-      "wait": "현장 줄 (케익부띠끄와 따로)",
-      "sells": "시루와 롤케이크",
-      "addr": "대전 중구 대종로 484",
-      "hours": "월~목 08:00~19:30, 금·토 08:00~22:30, 일 08:00~20:00, 연중무휴 (공식 홈페이지). 대표 전화 1588-8069",
-      "transit": "시루전문점은 케익부띠끄 본점 바로 근처예요.",
-      "parking": "확인 못 했어요.",
-      "tips": [
-        "같은 시각 후기 1건: 시루전문점은 입장까지 40분·구매까지 50분, 케익부띠끄는 20분 걸렸어요.",
-        "18시 이후엔 줄이 빨리 준다는 후기가 있어요."
-      ],
-      "modelNote": "대기 계산은 본점 일대(두 매장 합산) 모델로 해요.",
-      "src": [
         "official",
-        "polleSenmun",
+        "ig_DSi41F2k-Jt",
+        "ig_DcSBvk_T3t0",
+        "nate2312",
+        "segye2609",
+        "parking",
         "polleMatcha"
       ]
     },
@@ -343,20 +1092,23 @@
       "id": "dcc",
       "model": "dcc",
       "name": "DCC점",
-      "wait": "테이블링 운영 (2026년 9월 기사)",
-      "sells": "막내 크기 중심, 2.3kg은 없어요",
+      "short": "DCC점",
+      "wait": "현장 줄 + 매장 테이블링",
+      "sells": "막내 크기 중심이고, 2.3kg은 없어요",
       "addr": "대전 유성구 엑스포로 107 대전컨벤션센터 1층",
       "hours": "1층 08:00~22:00, 연중무휴 (공식 홈페이지)",
-      "transit": "이동 시간은 확인 못 했어요.",
-      "parking": "확인 못 했어요.",
+      "transit": "엑스포과학공원·한빛탑 옆 대전컨벤션센터 1층이에요.",
+      "parking": "대전컨벤션센터 주차장은 처음 30분 무료, 이후 15분마다 500원, 하루 최대 1만원이에요.",
       "tips": [
+        "시루는 오전 8시부터 현장에서 팔아요. 테이블링은 앱이 아니라 매장 기계로 접수해요 (2025년 DCC점 공지).",
         "2026년 9월 기사에 따르면 본점은 현장 대기, DCC점은 테이블링을 운영해요.",
-        "오픈런엔 작은 의자를 챙겼다는 후기가 있어요. DCC점에는 유모차가 못 들어가요."
+        "DCC점에는 유모차가 못 들어간다는 후기가 있어요."
       ],
       "src": [
         "officialDcc",
+        "ig_DMejB9vJipx",
         "segye2609",
-        "polleDcc",
+        "dccPark",
         "quasar"
       ]
     },
@@ -364,21 +1116,22 @@
       "id": "lotte",
       "model": "lotte",
       "name": "롯데백화점 대전점",
+      "short": "롯데점",
       "wait": "실내 대기",
-      "sells": "막내 크기 중심, 2.3kg은 없어요",
-      "addr": "대전 서구 계룡로 598 지하 1층 (케익부띠끄)",
+      "sells": "막내 크기 중심이고, 2.3kg은 없어요",
+      "addr": "대전 서구 계룡로 598 롯데백화점 지하 1층 케익부띠끄",
       "hours": "매일 08:00~22:00, 연중무휴 (공식 홈페이지)",
-      "transit": "이동 시간은 확인 못 했어요.",
-      "parking": "백화점 주차장은 06시에 연다는 후기가 있어요.",
+      "transit": "대전역에서 지하철 1호선으로 다섯 정거장(용문역) 가서 4번 출구로 나와 걸어서 5분이에요.",
+      "parking": "롯데백화점 주차장은 처음 30분 무료, 이후 10분당 1,000원이고 구매 금액에 따라 무료 시간이 늘어나요. 지하주차장은 06시부터 열어요.",
       "tips": [
-        "시루 줄은 지하, 빵 줄은 1층으로 따로 서요.",
-        "방문객이 적었다는 후기가 있어요."
+        "오픈 전엔 롯데백화점 정문 입구에서 기다려요 (2025년 12월 롯데점 공지).",
+        "시루 줄은 지하, 빵 줄은 1층으로 따로 서요."
       ],
       "src": [
         "officialLotte",
-        "polleLotte",
-        "polleLottePark",
-        "quasar"
+        "lotteShop",
+        "ig_DSlq_BGAUlF",
+        "polleLotte"
       ]
     }
   ],
@@ -403,12 +1156,12 @@
       "store": "dcc",
       "who": "정해진 시간에 맞춰 움직일 수 있는 분",
       "steps": [
-        "테이블링으로 픽업 시간 예약하기",
+        "오전 8시 이후 DCC점 테이블링 기계로 픽업 시간 접수하기",
         "기다리는 동안 대전에서 다른 일정 보기",
         "시간 맞춰 DCC점 방문하기"
       ],
       "good": "DCC점은 테이블링을 운영한다는 기사가 있어요 (2026년 9월).",
-      "care": "예약 조건과 1인 수량은 확인 못 했어요. 2.3kg은 없어요."
+      "care": "테이블링은 매장 기계로 현장 접수해요(2025년 DCC점 공지). 2.3kg은 없어요."
     },
     {
       "id": "C",
@@ -417,9 +1170,9 @@
       "who": "막내 크기로 충분하고 바깥 줄이 싫은 분",
       "steps": [
         "대전역 도착",
-        "롯데백화점 대전점으로 이동",
-        "지하 시루 줄 서기",
-        "1층에서 빵 사기"
+        "지하철 1호선 타고 용문역 (다섯 정거장)",
+        "4번 출구에서 걸어서 5분",
+        "지하 1층 시루 줄 서기"
       ],
       "good": "실내에서 기다리고 주차할 수 있어요.",
       "care": "2.3kg은 없어요."
@@ -562,292 +1315,6 @@
       }
     ]
   },
-  "SIRU_EXTRA": [
-    {
-      "id": "chestnut",
-      "name": "알밤시루",
-      "season": {
-        "from": "09-23",
-        "to": "12-31",
-        "label": "2026년엔 9월 23일부터 · 끝나는 날은 확인 필요",
-        "note": "2026년엔 본점 9월 23일, 롯데점·DCC점 9월 28일부터 4만5000원에 팔아요. 끝나는 날은 발표되지 않았어요."
-      },
-      "look": "밤크림을 층층이 쌓고 알밤을 올린 시루예요.",
-      "src": "https://www.etoday.co.kr/news/view/2628978",
-      "sk": "etodayChestnut26"
-    },
-    {
-      "id": "yokiyoki",
-      "name": "요키요키 (키위 케이크)",
-      "season": {
-        "from": "10-23",
-        "to": null,
-        "uncertain": true,
-        "label": "2026년 10월 23일 다시 출시 · 기간 확인 필요",
-        "note": "요키요키는 이름에 시루가 붙지 않은 키위 케이크예요. 2026년 10월 23일 레드키위를 더해 다시 나왔고, 케익부띠끄에서 4만3000원이라는 기사가 1곳 있어요."
-      },
-      "look": "요거트 크림에 골드키위와 레드키위를 올린 케이크예요.",
-      "src": "http://www.ggilbo.com/news/articleView.html?idxno=1188691",
-      "sk": "ggYokiyoki26"
-    },
-    {
-      "id": "blueberry",
-      "name": "블루베리시루",
-      "season": {
-        "from": "07-15",
-        "to": null,
-        "uncertain": true,
-        "label": "2026년엔 7월 15일부터 · 끝나는 날 확인 필요",
-        "note": "2026년 7월 15일부터 케익부띠끄에서 4만6000원에 팔았어요. 하루 수량은 월~목 200개, 금·주말 400개였어요."
-      },
-      "look": "블루베리잼과 블루베리 크림을 쌓고 생블루베리를 올린 시루예요.",
-      "src": "https://www.daejonilbo.com/news/articleView.html?idxno=2288158",
-      "sk": "djBlueberry26"
-    },
-    {
-      "id": "shinemelon",
-      "name": "샤인멜론시루",
-      "season": {
-        "from": "08-06",
-        "to": null,
-        "uncertain": true,
-        "label": "2026년엔 8월 6일부터 · 끝나는 날 확인 필요",
-        "note": "2026년 8월 6일부터 본점·DCC점·롯데점에서 4만3000원에 팔았어요. 끝나는 날은 발표되지 않았어요."
-      },
-      "look": "요거트 크림에 샤인머스캣과 머스크멜론을 넣은 시루예요.",
-      "src": "https://www.daejonilbo.com/news/articleView.html?idxno=2292889",
-      "sk": "djShineMelon26"
-    },
-    {
-      "id": "peach",
-      "name": "썸머요거피치 (복숭아 케이크)",
-      "season": {
-        "from": "07-14",
-        "to": null,
-        "uncertain": true,
-        "label": "2026년엔 7월 14일부터 · 롯데점에서만",
-        "note": "썸머요거피치는 2026년 7월 14일부터 롯데점에서만 3만6000원, 1인 1개로 팔았어요. \"복숭아시루\"로 적힌 기사도 있어요."
-      },
-      "look": "복숭아와 요거트 크림을 올린 1호 크기 케이크예요.",
-      "src": "https://www.etoday.co.kr/news/view/2603549",
-      "sk": "etodaySummer26"
-    },
-    {
-      "id": "melon1",
-      "name": "메론1통케익",
-      "season": {
-        "from": "05-28",
-        "to": null,
-        "uncertain": true,
-        "label": "2026년엔 5월 28일 ~ 6월 초",
-        "note": "메론1통케익은 노을 멜론을 쓴 케이크예요. 2026년엔 본점에서만 4만8000원에, 6월 초까지 한정 수량으로 팔았어요."
-      },
-      "look": "노을 멜론 한 통과 멜론 콩포트, 우유크림을 넣은 케이크예요.",
-      "src": "https://www.etoday.co.kr/news/view/2588830",
-      "sk": "etodayMelon26"
-    },
-    {
-      "id": "strawsulgi",
-      "name": "딸기설기",
-      "season": {
-        "from": "02-11",
-        "to": null,
-        "uncertain": true,
-        "label": "겨울~봄 · 기간 확인 필요",
-        "note": "2025년 2월 11일 본점에서 \"화이트딸기시루\"(5만2000원, 1인 1개)로 나왔어요. 2026년 기사엔 \"딸기설기\" 5만2000원이 있어요. 두 이름이 같은 제품인지는 공식 확인을 못 했어요."
-      },
-      "look": "흰 시트와 생크림 사이에 딸기를 쌓은 케이크예요.",
-      "src": "https://www.hankyung.com/article/2025021458427",
-      "sk": "hkWhiteBerry25"
-    }
-  ],
-  "SIZE_FACTS": {
-    "big": {
-      "name": "딸기시루 2.3kg",
-      "price": "49,000원",
-      "where": "본점 전용이에요 (2025년 기사)",
-      "lines": [
-        {
-          "t": "손님이 재 보니 2.5kg이었다는 말도 있어요.",
-          "s": "서울신문",
-          "u": "https://m.seoul.co.kr/news/2025/02/12/20250212500070"
-        },
-        {
-          "t": "딸기만 약 1kg 들어가요.",
-          "s": "한국일보",
-          "u": "https://v.daum.net/v/20231224150046485"
-        }
-      ]
-    },
-    "small": {
-      "name": "딸기시루 막내",
-      "price": "43,000원",
-      "where": "2.3kg보다 작은 크기예요",
-      "lines": [
-        {
-          "t": "막내의 무게와 크기는 공개 자료를 찾지 못했어요. 그림 크기는 대략이에요.",
-          "s": null,
-          "u": null
-        }
-      ]
-    }
-  },
-  "LAUNCH_DAYS": [
-    {
-      "md": "12-23",
-      "siru": [
-        "strawberry"
-      ],
-      "note": "2025년 딸기시루 판매 시작일이에요. 2024년 시작일은 자료마다 달라요."
-    },
-    {
-      "md": "04-06",
-      "siru": [
-        "mango"
-      ],
-      "note": "2026년 망고시루 판매 시작일이에요."
-    },
-    {
-      "md": "07-09",
-      "siru": [
-        "tangerine"
-      ],
-      "note": "2026년 생귤시루가 일부 매장에서 먼저 나온 날이에요."
-    },
-    {
-      "md": "08-20",
-      "siru": [
-        "fig"
-      ],
-      "note": "2026년 무화과시루 판매 시작일이에요."
-    }
-  ],
-  "LAST_DAYS": [
-    {
-      "md": "07-10",
-      "siru": [
-        "mango"
-      ],
-      "note": "2026년 망고시루 생산 마지막 날이에요."
-    },
-    {
-      "md": "10-13",
-      "siru": [
-        "tangerine"
-      ],
-      "note": "2024년 생귤시루 판매 마지막 날이에요. 2026년 마지막 날은 확인 못 했어요."
-    },
-    {
-      "md": "12-31",
-      "siru": [
-        "fig"
-      ],
-      "note": "무화과시루 마지막 날은 공식 발표를 못 찾았어요. \"8~12월\"이라는 여행 매체 정리 기준이에요."
-    },
-    {
-      "md": "04-30",
-      "siru": [
-        "strawberry"
-      ],
-      "note": "딸기시루 마지막 날은 공식 발표를 못 찾았어요. \"12월 말~4월\"이라는 여행 매체 정리 기준이에요."
-    }
-  ],
-  "STORE_SELL": {
-    "strawberry": {
-      "bon": "yes",
-      "senmun": "unk",
-      "dcc": "yes",
-      "lotte": "yes",
-      "note": "2.3kg은 본점 전용이에요(2025년 기사). 막내는 공식 매장 목록이 없고, DCC점·롯데점에서 샀다는 후기가 있어요."
-    },
-    "mango": {
-      "bon": "yes",
-      "senmun": "unk",
-      "dcc": "yes",
-      "lotte": "yes",
-      "note": "2026년엔 케익부띠끄 본점·롯데점·DCC점에서 팔았어요(7월 10일까지 생산). 시루전문점 판매는 확인 못 했어요."
-    },
-    "matcha": {
-      "bon": "unk",
-      "senmun": "unk",
-      "dcc": "unk",
-      "lotte": "unk",
-      "note": "2025년 12월 기사는 \"본점과 시루 매장에서 크리스마스 케이크·디저트를 판다\"고만 했어요. 본점 케이크 매장에서 샀다는 후기(2026년 1월)가 1건 있어요."
-    },
-    "tangerine": {
-      "bon": "yes",
-      "senmun": "unk",
-      "dcc": "yes",
-      "lotte": "yes",
-      "note": "2026년 7월 9일 일부 매장부터 시작했어요. 세계일보는 본점·DCC점 9일, 롯데점 11일부터라고 보도했어요."
-    },
-    "fig": {
-      "bon": "yes",
-      "senmun": "unk",
-      "dcc": "yes",
-      "lotte": "yes",
-      "note": "2026년 케익부띠끄 본점·롯데점·DCC점에서 판다는 기사가 있어요."
-    },
-    "fruit": {
-      "bon": "unk",
-      "senmun": "unk",
-      "dcc": "unk",
-      "lotte": "unk",
-      "note": "과일시루 판매 매장은 확인하지 못했어요."
-    }
-  },
-  "SELL_SRC": {
-    "strawberry": [
-      "etoday2512",
-      "miniDcc",
-      "polleLotte"
-    ],
-    "mango": [
-      "hkMango2607",
-      "trippickMango"
-    ],
-    "matcha": [
-      "etoday2512",
-      "polleSenmun"
-    ],
-    "tangerine": [
-      "hkMango2607",
-      "segyeGyul"
-    ],
-    "fig": [
-      "khanFig",
-      "wt2608"
-    ],
-    "fruit": [
-      "wt2608"
-    ]
-  },
-  "FRUIT_SIZES": {
-    "big": {
-      "name": "과일시루",
-      "price": "52,000원",
-      "where": "2026년 보도 가격이에요",
-      "lines": [
-        {
-          "t": "2023년엔 2.7kg으로 소개됐어요.",
-          "s": "인사이트",
-          "u": "https://www.insight.co.kr/news/438991"
-        }
-      ]
-    },
-    "small": {
-      "name": "과일시루 막내",
-      "price": "45,000원",
-      "where": "2026년 보도 가격이에요",
-      "lines": [
-        {
-          "t": "막내의 무게와 크기는 공개 자료를 찾지 못했어요.",
-          "s": null,
-          "u": null
-        }
-      ]
-    }
-  },
   "BREADS": [
     {
       "id": "tuiso",
@@ -937,24 +1404,6 @@
         "u": "https://www.trvlogue.com/ko/sungsimdang-bakery-daejeon-review"
       },
       "where": "본점",
-      "extra": null
-    },
-    {
-      "id": "salt",
-      "name": "소금빵",
-      "price": "1,500원 (2025년 후기)",
-      "why": "2024년 7월 추천 글 댓글에서 4명이 꼽았고, 싼 가격이 자주 언급돼요.",
-      "whySrc": {
-        "s": "다모앙",
-        "u": "https://damoang.net/qa/37940"
-      },
-      "look": "겉은 바삭하고 속은 촉촉하며, 위에 굵은 소금이 올라가 있어요.",
-      "taste": "\"담백하면서도 고소한 맛\"이라는 소개가 있어요.",
-      "tasteSrc": {
-        "s": "블로그",
-        "u": "https://www.lifeinformations.com/2026/06/seongsimdang-best-bread-top7-guide-2026.html"
-      },
-      "where": "파는 매장은 확인 못 했어요",
       "extra": null
     },
     {
