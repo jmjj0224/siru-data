@@ -1,4 +1,4 @@
-// siru-data.json 검사 (schema 2): node validate.js [파일경로]  (의존성 없음, 실패하면 종료 코드 1)
+// siru-data.json(schema 3)과 affiliate.json(schema 1)을 검사해요: node validate.js [siru-data.json 경로] [affiliate.json 경로]  (의존성 없음, 실패하면 종료 코드 1)
 const fs = require('fs');
 const path = require('path');
 const file = process.argv[2] || path.join(__dirname, 'siru-data.json');
@@ -18,9 +18,20 @@ const BAD_TEXT = new RegExp(['확인 ' + '필요', '확인 ' + '못', '확인하
 const EMOJI = /\p{Extended_Pictographic}/u;
 const OFFICIAL_HOST = /^https?:\/\/(www\.)?(instagram\.com|sungsimdang\.co\.kr)(\/|$)/;
 
-if (D.schema !== 2) bad('schema가 2가 아니에요: ' + JSON.stringify(D.schema));
+if (D.schema !== 3) bad('schema가 3이 아니에요: ' + JSON.stringify(D.schema));
 if (!isStr(D.updated) || isNaN(Date.parse(D.updated))) bad('updated가 ISO 시각이 아니에요');
 if (!isYmd(D.CHECKED)) bad('CHECKED가 YYYY-MM-DD 형식이 아니에요: ' + D.CHECKED);
+if (!isYmd(D.BUSY_CHECKED)) bad('BUSY_CHECKED가 YYYY-MM-DD 형식이 아니에요: ' + D.BUSY_CHECKED);
+if (!isObj(D.BUSY)) bad('BUSY가 객체가 아니에요');
+else {
+  const extra = Object.keys(D.BUSY).filter(k => !STORE_IDS.includes(k));
+  if (extra.length) bad('BUSY에 알 수 없는 매장 id가 있어요: ' + extra.join(', '));
+  STORE_IDS.forEach(id => {
+    const t = D.BUSY[id];
+    if (!Array.isArray(t) || t.length !== 7) return bad('BUSY.' + id + '는 요일 7줄(일~토)이어야 해요');
+    t.forEach((row, i) => { if (!Array.isArray(row) || row.length !== 14 || row.some(v => typeof v !== 'number' || v < 0 || v > 100)) bad('BUSY.' + id + '[' + i + ']는 8~21시 14칸, 0~100 숫자여야 해요'); });
+  });
+}
 
 const SRC = isObj(D.SRC) ? D.SRC : (bad('SRC가 객체가 아니에요'), {});
 for (const [k, v] of Object.entries(SRC)) if (typeof v !== 'string' || !/^https?:\/\//.test(v)) bad('SRC.' + k + ' 값이 http로 시작하지 않아요');
@@ -125,5 +136,41 @@ const m = all.match(BAD_TEXT);
 if (m) bad('앱에 쓰지 않기로 한 말이 들어 있어요: "' + m[0] + '" (모르는 건 쓰지 말고 빼요)');
 if (EMOJI.test(all)) bad('이모지가 들어 있어요');
 
+// ----- affiliate.json (쿠팡 파트너스 링크): 키 10개가 정확히 있고, 값은 빈 문자열이거나 쿠팡 단축 주소로 시작해요 -----
+const AFF_KEYS = ['mat', 'chair', 'parasol', 'fan', 'heatpack', 'blanket', 'battery', 'icebag', 'icepack', 'carrier'];
+const AFF_PREFIX = ['https://link.coupang.com/', 'https://coupa.ng/'];
+const affFile = process.argv[3] || path.join(path.dirname(file), 'affiliate.json');
+let affNote = '';
+if (!fs.existsSync(affFile)) {
+  if (process.argv[2] && !process.argv[3]) affNote = ', affiliate.json 없음(건너뜀)';
+  else bad('affiliate.json을 찾을 수 없어요: ' + affFile);
+} else {
+  let A = null;
+  try { A = JSON.parse(fs.readFileSync(affFile, 'utf8')); } catch (e) { bad('affiliate.json을 읽을 수 없어요: ' + e.message); }
+  if (A) {
+    if (!isObj(A)) bad('affiliate.json이 객체가 아니에요');
+    else {
+      if (A.schema !== 1) bad('affiliate.json의 schema가 1이 아니에요: ' + JSON.stringify(A.schema));
+      if (!isStr(A.updated) || isNaN(Date.parse(A.updated))) bad('affiliate.json의 updated가 ISO 시각이 아니에요');
+      if (!isObj(A.links)) bad('affiliate.json의 links가 객체가 아니에요');
+      else {
+        const keys = Object.keys(A.links);
+        AFF_KEYS.forEach(k => { if (!(k in A.links)) bad('affiliate.json links에 "' + k + '" 키가 없어요'); });
+        keys.forEach(k => { if (!AFF_KEYS.includes(k)) bad('affiliate.json links에 알 수 없는 키 "' + k + '"가 있어요 (키는 정확히 ' + AFF_KEYS.length + '개예요)'); });
+        for (const k of AFF_KEYS) {
+          const v = A.links[k];
+          if (!(k in A.links)) continue;
+          if (typeof v !== 'string') bad('affiliate.json links.' + k + '가 문자열이 아니에요');
+          else if (v !== '' && !(AFF_PREFIX.some(p => v.length > p.length && v.startsWith(p)) && !/\s/.test(v))) bad('affiliate.json links.' + k + '는 빈 문자열이거나 ' + AFF_PREFIX.join(' 또는 ') + '로 시작해야 해요: ' + v);
+        }
+        const filled = AFF_KEYS.filter(k => typeof A.links[k] === 'string' && A.links[k]).length;
+        affNote = ', affiliate.json 링크 ' + filled + '/' + AFF_KEYS.length + '개';
+      }
+      const extra = Object.keys(A).filter(k => !['schema', 'updated', 'links'].includes(k));
+      if (extra.length) bad('affiliate.json에 알 수 없는 최상위 키가 있어요: ' + extra.join(', '));
+    }
+  }
+}
+
 if (errs.length) { console.error('검사 실패 (' + errs.length + '건)'); errs.forEach(e => console.error(' - ' + e)); process.exit(1); }
-console.log('OK: ' + path.basename(file) + ' (schema 2, 제품 ' + D.PRODUCTS.length + '개, CHECKED ' + D.CHECKED + ')');
+console.log('OK: ' + path.basename(file) + ' (schema 3, 제품 ' + D.PRODUCTS.length + '개, CHECKED ' + D.CHECKED + ')' + affNote);
