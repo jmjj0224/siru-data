@@ -1,7 +1,7 @@
 {
   "schema": 3,
-  "updated": "2026-10-26T03:03:00.319Z",
-  "CHECKED": "2026-10-25",
+  "updated": "2026-10-29T22:54:45.946Z",
+  "CHECKED": "2026-10-30",
   "PRODUCTS": [
     {
       "id": "strawberry",
@@ -995,6 +995,16 @@
           "s": "성심당 공식 인스타그램",
           "u": "https://www.instagram.com/p/DetEfDcFHBu/",
           "t": "2026-10-20 출시"
+        },
+        {
+          "s": "세계일보",
+          "u": "https://www.segye.com/newsView/20261022509892",
+          "t": "2026-10-22 막내 4만3000원, 본점 판매"
+        },
+        {
+          "s": "재경일보",
+          "u": "https://news.jkn.co.kr/post/1046376",
+          "t": "2026-10-24 막내 4만3000원, 본점 판매"
         }
       ]
     }
